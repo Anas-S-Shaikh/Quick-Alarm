@@ -1,0 +1,41 @@
+.timeContainer{
+    font-size: 7rem;
+}
+.subTime #ampm {
+    font-size: 0.5rem;
+}
+.subTime #seconds {
+    font-size: 2rem;
+}
+.dateAndAlarmContainer{
+    flex-direction: column;
+}
+.dateContainer{
+    width: 100%;
+    margin: 4% 0%;
+}
+.dateContainer .dateBx {
+    font-size: 1.2rem;
+}
+.alarmContainer{
+    width: 100%;
+    justify-content: center;
+}
+.alarmContainer input, #ampmInput{
+    width: 13%;
+    font-size: 1rem;
+}
+#message{
+    font-size: 0.6rem;
+}
+footer{
+    font-size: 0.7rem;
+}
+/* utitlity classes */
+h1 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.btn {
+    font-size: 1rem;
+}
