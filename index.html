@@ -59,11 +59,9 @@
                     </div>
                 </div>
                 <div class="alarmContainer">
-                    <input type="text" id="dateInput" placeholder="Date">
-                    <!-- <input type="text" id="monthInput" placeholder="Month"> -->
-                    <!-- <input type="text" id="yearInput" placeholder="Year"> -->
-                    <input type="text" id="hourInput" placeholder="Hour">
-                    <input type="text" id="minuteInput" placeholder="Minute">
+                    <input type="number" min="1" max="31" id="dateInput" placeholder="Date">
+                    <input type="number" min="1" max="12" id="hourInput" placeholder="Hour">
+                    <input type="number" min="1" max="59" id="minuteInput" placeholder="Minute">
                     <select id="ampmInput">
                         <option value="AM">AM</option>
                         <option value="PM">PM</option>
