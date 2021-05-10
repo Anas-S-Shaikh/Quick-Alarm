@@ -1,5 +1,6 @@
 # Quick-Alarm
 This is a simple clock and alarm webapp.
+[Check it out](https://anas-s-shaikh.github.io/Quick-Alarm/)
 # Technologies
 Pure HTML/CSS and vanilla javascript.
 # Purpose
